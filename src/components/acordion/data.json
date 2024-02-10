@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "topic": "Introduction to Machine Learning",
+    "description": "A basic overview of machine learning concepts and algorithms."
+  },
+  {
+    "id": 2,
+    "topic": "Web Development with React.js",
+    "description": "Building modern web applications using the React.js library."
+  },
+  {
+    "id": 3,
+    "topic": "Healthy Cooking Tips",
+    "description": "Nutritious recipes and cooking techniques for a healthy lifestyle."
+  },
+  {
+    "id": 4,
+    "topic": "Photography Basics",
+    "description": "Understanding the fundamentals of photography, from composition to camera settings."
+  },
+  {
+    "id": 5,
+    "topic": "Financial Planning for Beginners",
+    "description": "Guidance on managing personal finances and creating a budget."
+  }
+]
