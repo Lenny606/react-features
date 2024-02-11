@@ -1,11 +1,50 @@
 .wrapper {
     display: flex;
+    flex-direction: column;
+    gap: 20px;
     width: 100%;
     height: 100%;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
-.item{
+.item {
+    background: lightcoral;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
 
+
+.accordion {
+    width: 500px;
+}
+
+button {
+    color: white;
+    padding: 10px 20px;
+    background: lightcoral;
+    border: none;
+    cursor: pointer;
+}
+button.enabled {
+    background: white;
+    color: lightcoral;
+    border: 1px solid lightcoral;
+}
+
+.topic {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+div.topic:hover  {
+    text-decoration: underline;
+}
+
+.description{
+    color: white;
+    padding-top: 15px;
+    height: auto;
 }
