@@ -10,4 +10,3 @@ project what contains multiple small pieces of react code
 
 ## Random Color Generator
 -
--
