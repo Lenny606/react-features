@@ -1,7 +1,8 @@
-import { useState } from 'react'
+
 import Acordion from "./components/acordion";
 import './App.css'
 import './components/acordion/styles.css'
+import StarRating from "./components/star-rating/StarRating.tsx";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -9,6 +10,8 @@ function App() {
   return (
     <>
       <Acordion />
+
+        <StarRating numOfStars={5}/>
     </>
   )
 }
