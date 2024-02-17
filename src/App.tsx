@@ -1,4 +1,3 @@
-
 import {useState} from 'react'
 import Acordion from "./components/acordion/Accordion.tsx";
 import './App.css'
@@ -10,11 +9,10 @@ import StarRating from "./components/star-rating/StarRating.tsx";
 function App() {
     // const [count, setCount] = useState(0)
 
-  return (
-    <>
-      <Acordion />
-
-        <StarRating numOfStars={5}/>
+    return (
+        <>
+            <Acordion/>
+            <StarRating numOfStars={5}/>
             <ColorGenerator/>
         </>
     )
