@@ -8,7 +8,6 @@ project what contains multiple small pieces of react code
 - each item has event handler for open / close description
 - multiselect 
 
-
 ## Star Rating
 
 #### practice ...
@@ -17,3 +16,6 @@ project what contains multiple small pieces of react code
 ```bash
 npm i react-icons
 ```
+
+## Random Color Generator
+-
