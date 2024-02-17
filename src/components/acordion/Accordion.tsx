@@ -38,6 +38,7 @@ function Accordion() {
     return <div>
         <div className={"wrapper"}>
             <button
+                // TODO refactor btn into component
                 onClick={() => handleEnableMultiSelection()}
                 className={enableMultiSelect ? "enabled" : ""}
             >Enable Multi Select
