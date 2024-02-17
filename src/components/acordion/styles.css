@@ -26,6 +26,7 @@ button {
     border: none;
     cursor: pointer;
 }
+
 button.enabled {
     background: white;
     color: lightcoral;
