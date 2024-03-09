@@ -73,6 +73,7 @@ export default function LoadMore(props) {
                     <button
                         onClick={() => setCount(count + 1)}
                         disabled={disableButton}
+                        style={{cursor: "none"}}
                     >Load More
                     </button>
             }
