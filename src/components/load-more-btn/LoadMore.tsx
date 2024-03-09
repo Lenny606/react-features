@@ -37,7 +37,7 @@ export default function LoadMore(props) {
     }, [count]);
 
     useEffect(() => {
-        if (products.length >= 100) {
+        if (products && products.length >= 100) {
             setDisableButton(true)
         }
     }, [products]);
@@ -66,11 +66,16 @@ export default function LoadMore(props) {
         </div>
         <div
             className={'button-container'}>
-            <button
-                onClick={() => setCount(count + 1)}
-                disabled={disableButton}
-            >Load More
-            </button>
+
+            {
+                disableButton ?
+                    <p>You have reached limit 100 products</p> :
+                    <button
+                        onClick={() => setCount(count + 1)}
+                        disabled={disableButton}
+                    >Load More
+                    </button>
+            }
         </div>
 
     </div>
