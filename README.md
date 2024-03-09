@@ -2,6 +2,8 @@
 
 project what contains multiple small pieces of react code
 
+https://www.youtube.com/watch?v=5ZdHfJVAY-s&t=1271s&ab_channel=freeCodeCamp.org
+
 ## Selector
 
 #### practice for handling list of items
@@ -10,7 +12,6 @@ project what contains multiple small pieces of react code
 
 ## Star Rating
 
-#### practice ...
 - using react-icons package
 
 ```bash
@@ -19,3 +20,7 @@ npm i react-icons
 
 ## Random Color Generator
 -
+
+## Load More Btn
+
+## Tree Menu - dynamic, recursive
