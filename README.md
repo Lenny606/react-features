@@ -23,4 +23,13 @@ npm i react-icons
 
 ## Load More Btn
 
-## Tree Menu - dynamic, recursive
+## Tree Menu Navigation
+dynamic content from data src\
+recursive component
+
+## QR Code generator
+using package
+
+`
+npm react-qr-code
+`

@@ -9,6 +9,7 @@ import ImageSlider from "./components/image-slider/ImageSlider.tsx";
 import LoadMore from "./components/load-more-btn/LoadMore.tsx";
 import TreeMenu from "./components/tree-menu/TreeMenu.tsx";
 import data from "./components/tree-menu/data";
+import QRGenerator from "./qr-code-generator/QRGeneretar.tsx";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <ImageSlider url={'https://picsum.photos/v2/list'} limit={5}/>
             <LoadMore limit={5}/>
             <TreeMenu menu={data}/>
+            <QRGenerator />
         </>
     )
 
