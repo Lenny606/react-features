@@ -33,3 +33,10 @@ using package
 `
 npm react-qr-code
 `
+
+## QR Code generator
+using package
+
+`
+npm react-qr-code
+`

@@ -10,6 +10,7 @@ import LoadMore from "./components/load-more-btn/LoadMore.tsx";
 import TreeMenu from "./components/tree-menu/TreeMenu.tsx";
 import data from "./components/tree-menu/data";
 import QRGenerator from "./qr-code-generator/QRGeneretar.tsx";
+import ThemeSwitcher from "./components/theme-switcher/ThemeSwitcher.tsx";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             <LoadMore limit={5}/>
             <TreeMenu menu={data}/>
             <QRGenerator />
+            <ThemeSwitcher />
         </>
     )
 
