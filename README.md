@@ -34,9 +34,5 @@ using package
 npm react-qr-code
 `
 
-## QR Code generator
-using package
-
-`
-npm react-qr-code
-`
+## Theme Switcher
+using custom hook for local storage

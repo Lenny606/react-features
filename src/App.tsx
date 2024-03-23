@@ -11,6 +11,7 @@ import TreeMenu from "./components/tree-menu/TreeMenu.tsx";
 import data from "./components/tree-menu/data";
 import QRGenerator from "./qr-code-generator/QRGeneretar.tsx";
 import ThemeSwitcher from "./components/theme-switcher/ThemeSwitcher.tsx";
+import ScrollIndicator from "./components/scroll-indicator/ScrollIndicator.tsx";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
             <TreeMenu menu={data}/>
             <QRGenerator />
             <ThemeSwitcher />
+            <ScrollIndicator url={"https://dummyjson.com/products?limit=15"} />
         </>
     )
 
