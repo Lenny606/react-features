@@ -36,3 +36,10 @@ npm react-qr-code
 
 ## Theme Switcher
 using custom hook for local storage
+
+## Scroll Indicator
+events on scroll
+
+## Dynamic Tabs
+without 3rd party package
+
