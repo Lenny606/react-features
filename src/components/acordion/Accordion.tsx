@@ -15,6 +15,15 @@ function Accordion() {
         }
     }
 
+    // let test  = data[0]
+    let test : string  = "shit 20 % "
+    test = encodeURIComponent(test).replaceAll(`"`, '`').replaceAll(`'`, '`');
+    console.log(test)
+    test = decodeURIComponent(test)
+    console.log('-----')
+    console.log(test)
+
+    // console.log(test)
     const handleEnableMultiSelection = () => {
         console.log(enableMultiSelect)
         setEnableMultiSelect(!enableMultiSelect ? true : false)
