@@ -13,6 +13,7 @@ import QRGenerator from "./qr-code-generator/QRGeneretar.tsx";
 import ThemeSwitcher from "./components/theme-switcher/ThemeSwitcher.tsx";
 import ScrollIndicator from "./components/scroll-indicator/ScrollIndicator.tsx";
 import TabsTest from "./components/dynamic-tab/tabs-test.tsx";
+import Callback from "./components/callback/callback.tsx";
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
             <ThemeSwitcher />
             <ScrollIndicator url={"https://dummyjson.com/products?limit=15"} />
             <TabsTest />
+            < Callback />
         </>
     )
 
