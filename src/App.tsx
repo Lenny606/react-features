@@ -14,6 +14,7 @@ import ThemeSwitcher from "./components/theme-switcher/ThemeSwitcher.tsx";
 import ScrollIndicator from "./components/scroll-indicator/ScrollIndicator.tsx";
 import TabsTest from "./components/dynamic-tab/tabs-test.tsx";
 import Callback from "./components/callback/callback.tsx";
+import ModalTest from "./components/modal/modal-test.tsx";
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
             <ScrollIndicator url={"https://dummyjson.com/products?limit=15"} />
             <TabsTest />
             < Callback />
+            <ModalTest />
         </>
     )
 
